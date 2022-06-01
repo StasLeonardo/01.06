@@ -1,0 +1,80 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        'header header  header1 header1'
+        'aside  main    main    main '
+        'footer footer  footer  footer';
+    grid-gap: 5px;
+    text-align: center;
+    font-size: 24pt;
+}
+.container div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.kaka {
+    grid-area: footer;
+    background-color: pink;
+    height: 43px;
+    width: 16.8%;
+    position: relative;
+    top: 0px;
+    right: -1110px;
+    z-index: 1;
+}
+.header {
+    grid-area: header;
+    background-color: #BA4B0E;
+    width: 49.7%;
+    height: 75px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: #00ACD7;
+    height: 500px;
+}
+
+.main {
+    grid-area: main;
+    background-color: yellow;
+    height: 500px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: green;
+    height: 43px;
+    width: 83%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    
+}
+
+.b1 {
+    width: 50%;
+    height: 7%;
+    background-color: #D5236A;
+    position: absolute;
+    top: 190px;
+    right: 250px;
+    z-index: 1;
+    
+}
+
+.b2 {
+    width: 73.8%;
+    height: 12%;
+    background-color: orange;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+}
+.container div {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
